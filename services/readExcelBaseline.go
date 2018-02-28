@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/tealeg/xlsx"
 	"path/filepath"
-	"platformOps-EC/models"
+	"ec/models"
 )
 
 func LoadFromExcel(file string) (b models.Baseline, controls []models.Control) {

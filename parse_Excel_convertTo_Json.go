@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"platformOps-EC/models"
-	"platformOps-EC/services"
+	"ec/models"
+	"ec/services"
 )
 
 func main() {

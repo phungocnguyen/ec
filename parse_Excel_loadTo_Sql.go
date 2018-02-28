@@ -10,7 +10,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
-	"platformOps-EC/services"
+	"ec/services"
 )
 
 type Config struct {

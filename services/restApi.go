@@ -1,7 +1,7 @@
 package services
 
 import (
-	"platformOps-EC/models"
+	"ec/models"
 	"net/http"
 	"log"
 	"bytes"

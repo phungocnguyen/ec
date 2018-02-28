@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 	"log"
-	"platformOps-EC/models"
+	"ec/models"
 )
 
 func InsertBaseline(db *sql.DB, baseline models.Baseline) (genId int) {
