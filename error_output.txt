@@ -1,0 +1,27 @@
+
+##################################
+Version:  ec_agent v.1.1.3
+Req Id:   1
+Title:    Control 1
+Baseline: control_example_1
+Date Exc: Fri Feb 23 16:37:37 EST 2018
+Command:
+        [docker version]
+##################################
+
+exit status 1
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+
+
+##################################
+Version:  ec_agent v.1.1.3
+Req Id:   3
+Title:    Control 3
+Baseline: control_example_1
+Date Exc: Fri Feb 23 16:37:37 EST 2018
+Command:
+        [ps -ef | grep virtualbox | grep 123456]
+##################################
+
+exit status 1
+

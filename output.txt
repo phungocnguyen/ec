@@ -1,0 +1,80 @@
+
+##################################
+Version:  ec_agent v.1.1.3
+Req Id:   1
+Title:    Control 1
+Baseline: control_example_1
+Date Exc: Fri Feb 23 16:37:37 EST 2018
+Command:
+        [docker version]
+##################################
+
+Client:
+ Version:	17.12.0-ce
+ API version:	1.35
+ Go version:	go1.9.2
+ Git commit:	486a48d
+ Built:	unknown-buildtime
+ OS/Arch:	darwin/amd64
+ Experimental:	false
+
+
+##################################
+Version:  ec_agent v.1.1.3
+Req Id:   2
+Title:    Control 2
+Baseline: control_example_1
+Date Exc: Fri Feb 23 16:37:37 EST 2018
+Command:
+        [ls /Users/nguyenp/Downloads | grep gz | sort -r]
+##################################
+
+go1.9.2.linux-amd64.tar.gz
+go1.9.2.darwin-amd64.tar.gz
+
+
+##################################
+Version:  ec_agent v.1.1.3
+Req Id:   3
+Title:    Control 3
+Baseline: control_example_1
+Date Exc: Fri Feb 23 16:37:37 EST 2018
+Command:
+        [ps -ef | grep virtualbox | grep 123456]
+##################################
+
+
+
+##################################
+Version:  ec_agent v.1.1.3
+Req Id:   4
+Title:    Control 4
+Baseline: control_example_1
+Date Exc: Fri Feb 23 16:37:38 EST 2018
+Command:
+        [javah -version ]
+        [echo Hello World]
+##################################
+
+javah version "1.8.0_151"
+
+Hello World
+
+
+##################################
+Version:  ec_agent v.1.1.3
+Req Id:   5
+Title:    Control 5
+Baseline: control_example_1
+Date Exc: Fri Feb 23 16:37:38 EST 2018
+Command:
+        [curl http://google.com]
+##################################
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
+
