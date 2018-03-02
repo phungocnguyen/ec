@@ -43,7 +43,7 @@ func main() {
 	// Method:   GET
 	// Resource: http://localhost:8080
 	app.Handle("GET", "/", func(ctx iris.Context) {
-		ctx.HTML("<h1>Welcome to EC Master</h1>")
+		ctx.HTML("<h1>Welcome to EC Master!!</h1>")
 	})
 
 	// Method:   GET
