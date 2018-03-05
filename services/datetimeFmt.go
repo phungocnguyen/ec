@@ -6,8 +6,8 @@ import (
 )
 
 var (
-	LONG_DATE_TIME = "Mon Jan 2 15:04:05 MST 2006"
-	TIME_ZONE = "15:04:05 MST"
+	LONG_DATE_TIME = "2006-01-02 15:04:05"
+	TIME_ZONE = "15:04:05"
 )
 
 func DateTimeNow() string {
