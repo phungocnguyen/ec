@@ -17,6 +17,15 @@ evidence from a set of baselines.
 **Project code structure**:
 
  ```
+ - cmd/
+    - converter/
+        - parse_Excel_convertTo_Json.go
+        - parse_Excel_loadTo_Sql.go
+    - ecAgent/
+        - ec_agent.go
+    - ecMaster/
+        - ecMaster.go
+        
  - models/
         - baseline.go
         - control.go
@@ -26,9 +35,7 @@ evidence from a set of baselines.
         - commandExe.go
         - crudBaselineControl.go
         - readExcelBaseline.go
- - ec_agent.go
- - parse_Excel_convertTo_Json.go
- - parse_Excel_loadTo_Sql.go
+ 
 ```
 
 **Convention**:
