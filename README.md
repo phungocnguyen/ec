@@ -43,7 +43,7 @@ evidence from a set of baselines.
 
 - github.com/tealeg/xlsx - Excel parser
 - github.com/lib/pq - PostgreSQL Go driver
-
+- github.com/google/uuid - UUID generator
 ## Configuration
 
 - Please contact __DL_CFPB_Platform_Operations_Team_ for configuration setup.
